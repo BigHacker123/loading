@@ -62,12 +62,12 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
     Description.TextStrokeTransparency = 0.500
     Description.TextXAlignment = Enum.TextXAlignment.Left
 
-    Notification:TweenPosition(UDim2.new(1, -400, 0, 75), "Out", "Sine", 0.35)
-    wait(0.35)
+    Notification:TweenPosition(UDim2.new(1, -400, 0, 75), "Out", "Sine", 0.50)
+    wait(0.50)
     Line:TweenSize(UDim2.new(0, 450, 0, 4), "Out", "Linear", Delay)
     wait(Delay)
-    Notification:TweenPosition(UDim2.new(1, 5, 0, 75), "Out", "Sine", 0.35)
-    wait(0.35)
+    Notification:TweenPosition(UDim2.new(1, 5, 0, 75), "Out", "Sine", 0.50)
+    wait(0.50)
     Notification:Destroy()
 end
 
@@ -76,4 +76,4 @@ end
 
 local m = Cheese()
 
-m:Notify("beamed.solutions", "Loaded", 2);
+m:Notify("beamed.solutions", "Loaded", 4);

@@ -76,4 +76,4 @@ end
 
 local m = Cheese()
 
-m:Notify("beamed.solutions", "Loaded", 4);
+m:Notify("beamed.solutions", "Loaded", 1);
